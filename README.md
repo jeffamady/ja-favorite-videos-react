@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# JA Favorite Videos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## It is a React web application
 
-## Available Scripts
+ ## This application is connected to the API: <https://github.com/jeffamady/react-videos-server> that I created with **MongoDB** and **Mongoose**. With this project you can create, read, update and delete **Videos** add a **Title** and **Description**.
 
-In the project directory, you can run:
+## Technologies
+* typescript v4.1.2
+* React         v17.0.2
+* React-Dom     v17.0.2
+* react-scripts v4.0.3
+* axios         v0.21.1
+* bootswatch    v5.0.1
+* react-confirm-alert v2.7.0
+* react-player v2.9.0
+* react-router-dom v5.2.0
+* react-toastify 7.0.4
+* web-vitals v1.0.1
 
-### `yarn start`
+## Setup
+To run this project, install it locally using npm:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+$ cd ../
+$ npm install
+$ npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## You can see an overview of the application
+![image](https://user-images.githubusercontent.com/75714102/121436143-6b547680-c956-11eb-86d0-b300deb47d13.png)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
